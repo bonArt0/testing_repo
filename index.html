@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test homework</title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <section class="data-block">
+            <form id="myForm" action="test/error.json">
+                <input type="text" name="fio" placeholder="Фамилия Имя Отчество">
+                <hr>
+                <input type="email" name="email" placeholder="E-mail">
+                <br>
+                <input type="tel" name="phone" placeholder="Телефон">
+                <hr>
+                <input type="button" id="submitButton" value="Отправить" onclick="myForm.submit();">
+            </form>
+            <div id="resultContainer"></div>
+        </section>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
